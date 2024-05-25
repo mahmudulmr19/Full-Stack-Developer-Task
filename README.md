@@ -4,7 +4,7 @@
 
 Create an advanced full-stack Todo application with a backend that allows users to create, read, update, and delete todos, and a frontend to interact with this backend. The backend should be built using Express, TypeScript, and tRPC, while the frontend should use Next.js and TypeScript.
 
-#### Requirements:
+## Requirements:
 
 ### Backend
 
@@ -35,7 +35,6 @@ Create an advanced full-stack Todo application with a backend that allows users 
 4. **Implementation Details:**
 
    - Use tRPC to define and implement the endpoints.
-   - Use an in-memory data store (a simple array) to manage todos.
    - Implement middleware to log each request with its method and URL.
    - Add input validation for all endpoints using Zod (or similar validation library).
    - Implement pagination for the `GET /todos` endpoint.
